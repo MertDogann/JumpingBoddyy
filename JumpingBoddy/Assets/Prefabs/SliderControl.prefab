@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4297563322358064596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4297563322358064598}
+  - component: {fileID: 4297563322358064597}
+  m_Layer: 0
+  m_Name: SliderControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4297563322358064598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297563322358064596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5538833, y: 1.3475832, z: 32.807224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4297563322358064597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297563322358064596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e30adf8af849514a82c9c6437467ad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  staminaSlider: {fileID: 0}
+  levelProgresBarr: {fileID: 0}
+  staminaSliderImage: {fileID: 0}
+  hotPanelImage: {fileID: 0}
+  myColors:
+  - {r: 0.087962985, g: 1, b: 0, a: 1}
+  - {r: 1, g: 0.96657693, b: 0, a: 1}
+  - {r: 1, g: 0.030456852, b: 0, a: 1}
+  - {r: 1, g: 0.030456852, b: 0, a: 0}
+  - {r: 1, g: 0, b: 0.106202126, a: 0.15686275}
+  playerData: {fileID: 11400000, guid: 49045546619997d418aa0869c10a0c21, type: 2}
+  cameraMove: {fileID: 0}
+  finishLine: {fileID: 0}
+  sliderValue: 0
